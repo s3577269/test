@@ -9,11 +9,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <ul>
-          <li><Link to="/login">login</Link></li>
-          <li><Link to="/atlas">sign up</Link></li>
-          <li><Link to="/atlas/GT">user</Link></li>
-        </ul>
       <Routes>
         <Route path="/" element={<IndexPage />} />
         <Route path="/login" element={<Login />} />
